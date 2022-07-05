@@ -19,6 +19,7 @@
 ![image](https://user-images.githubusercontent.com/37327676/177281162-a244f024-29bb-4e04-8a73-de5199d93fbe.png)
 
 > DI, AOP, IOC 란?
+>
 > DI란?
 - Dependency Injection의 줄임말로, 의존성주입 이라고 한다.
 
