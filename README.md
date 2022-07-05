@@ -24,15 +24,15 @@
 
 > Dependency Injection 방법
 - @Autowird를 사용한 DI(타입 주입)
-- 
+
 ![image](https://user-images.githubusercontent.com/37327676/177284698-66e419eb-3fc7-470c-8e1a-d4320516a1c0.png)
 
 - @AllArgsConstructor를 통한 주입
-- 
+
 ![image](https://user-images.githubusercontent.com/37327676/177284776-705616ea-4520-46b1-84da-2db4498f40a9.png)
 
 - @RequiredArgsConstructor를 통한 주입
-- 
+
 ![image](https://user-images.githubusercontent.com/37327676/177283017-087062ec-ad75-44fc-aefd-2ad76968a384.png)
 
 - @Setter를 통한 주입
