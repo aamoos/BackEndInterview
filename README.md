@@ -73,6 +73,9 @@
 
 > SQL Injection (SQL 삽입 공격)
 - SQL Injection이란 악의적인 사용자가 보안상의 취약점을 이용하여, 임의의 SQL문을 주입하고 실행되게 하여 데이터베이스가 비정상적인 동작을 하도록 조작하는 행위입니다.
-- 
+
 ![image](https://user-images.githubusercontent.com/37327676/177290118-7ea13a47-7454-49a1-af6e-e6a797aaa27d.png)
+
+> SQL Injection 대응방안
+- Prepared Statement 구문 사용 : Prepared Statement 구문을 사용하게 되면, 사용자의 입력 값이 데이터베이스의 파라미터로 들어가기 전에 DBMS가 미리 컴파일 하여 실행하지 않고 대기합니다. Spring Mybatis에서 #{}으로 선언하는것과 
 
