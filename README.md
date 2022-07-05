@@ -20,6 +20,19 @@
 
 > DI, AOP, IOC 란?
 > DI란?
+- Dependency Injection의 줄임말로, 의존성주입 이라고 한다.
+
+> Dependency Injection 방법
+- @Autowird를 사용한 DI(타입 주입)
+![image](https://user-images.githubusercontent.com/37327676/177282715-1dd9cd0c-f2e9-462f-bcb7-25324258a897.png)
+
+- @AllArgsConstructor를 통한 주입
+![image](https://user-images.githubusercontent.com/37327676/177282921-2da95c73-55fe-4136-9273-f5050799e125.png)
+
+- @RequiredArgsConstructor를 통한 주입
+![image](https://user-images.githubusercontent.com/37327676/177283017-087062ec-ad75-44fc-aefd-2ad76968a384.png)
+
+- @Setter를 통한 
 
 > AOP란?
 
