@@ -1,6 +1,5 @@
 # 백엔드 개발자 CS
 > Was란?
-> 
 - 종류 : Web Logic, Web Spere, Jeus, Jboss, tomcat
 
 - 특징
@@ -21,4 +20,7 @@
 
 > DI, AOP, IOC 란?
 > DI란?
-> 
+
+> AOP란?
+
+>IOC란?
