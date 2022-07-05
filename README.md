@@ -35,7 +35,7 @@
 - 
 ![image](https://user-images.githubusercontent.com/37327676/177283017-087062ec-ad75-44fc-aefd-2ad76968a384.png)
 
-- @Setter를 통한 
+- @Setter를 통한 주입
 
 > AOP란?
 
