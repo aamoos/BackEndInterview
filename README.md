@@ -20,4 +20,5 @@
 ![image](https://user-images.githubusercontent.com/37327676/177281162-a244f024-29bb-4e04-8a73-de5199d93fbe.png)
 
 > DI, AOP, IOC 란?
-- ㅇㅇ
+> DI란?
+> 
