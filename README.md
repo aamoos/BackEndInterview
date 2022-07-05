@@ -9,7 +9,7 @@ Web Logic, Web Spere, Jeus, Jboss, tomcat
 > WebServer란?
 
 - 종류
-1. Apache, NginX, IIS, WebTob
+- Apache, NginX, IIS, WebTob
 
 - 특징
 1. 클라이언트가 서버에 페이지 요청을 하면 요청을 받아 정적 페이지(html, png, css)를 제공함
