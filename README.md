@@ -29,7 +29,7 @@
 
 - @AllArgsConstructor를 통한 주입
 - 
-![image](https://user-images.githubusercontent.com/37327676/177282921-2da95c73-55fe-4136-9273-f5050799e125.png)
+![image](https://user-images.githubusercontent.com/37327676/177284776-705616ea-4520-46b1-84da-2db4498f40a9.png)
 
 - @RequiredArgsConstructor를 통한 주입
 - 
