@@ -114,6 +114,7 @@
 - Controller : 사용자의 요청을 처리하고 Model과 View를 중개하는 컴포넌트
 
 > Spring MVC란?
+> 
 Spring MVC란 웹 애플리케이션 개발을 위한 MVC 패턴 기반의 웹 프레임워크입니다. Spring MVC는 애플리케이션의 구성요소를 Model, View, Controller로 분리합니다. 또한 Spring MVC는 아래와 같은 컴포넌트들로 구성됩니다.
 - Dispatcher Servlet : 클라이언트의 요청을 먼저 받아들이는 서블릿으로, 요청에 맞는 컨트롤러에게 요청을 전달함
 - Handler Mapping : 해당 요청이 어떤 컨트롤러에게 온 요청인지 검사함
