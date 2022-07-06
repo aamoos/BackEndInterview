@@ -100,3 +100,23 @@
 2. 즉, 사용자가 브라우저를 열어 서버를 접속한 뒤 접속을 종료할 때까지의 시점을 말합니다.
 3. HTTP 프로토콜은 비접속형 프로토콜이므로, 매 접속시마다 새로운 네트워크 연결이 이루어지는데, 세션이 연결 유지를 가능하게 해줍니다.
 
+> VO, DTO, BO, DAO란?
+- DAO(Data Acess Object) : DB에 접근하여 실제 데이터를 조회 또는 조작하는 클래스, Repository 또는 Mapper에 해당함
+- BO(Business Object) : 여러 DAO를 활용해 비즈니스 로직을 처리하는 클래스, Service에 해당함
+- DTO(Data Transfer Object) : 데이터를 주고 받기 위해 사용하는 클래스
+- VO(Value Object) : 실제 데이터만을 저장하는 클래스
+
+> MVC 패턴이란?
+1. MVC(Model-View-Controller) 패턴은 아키텍처를 설계하기 위한 디자인 패턴입니다.
+2. MVC 패턴은 애플리케이션을 개발할 때 그 구성요소를 3가지로 나눕니다.
+- Model : 데이터를 저장하는 컴포넌트
+- View : 사용자 인터페이스(UI) 컴포넌트
+- Controller : 사용자의 요청을 처리하고 Model과 View를 중개하는 컴포넌트
+
+> Spring MVC란?
+Spring MVC란 웹 애플리케이션 개발을 위한 MVC 패턴 기반의 웹 프레임워크입니다. Spring MVC는 애플리케이션의 구성요소를 Model, View, Controller로 분리합니다. 또한 Spring MVC는 아래와 같은 컴포넌트들로 구성됩니다.
+- Dispatcher Servlet : 클라이언트의 요청을 먼저 받아들이는 서블릿으로, 요청에 맞는 컨트롤러에게 요청을 전달함
+- Handler Mapping : 해당 요청이 어떤 컨트롤러에게 온 요청인지 검사함
+- Controller : 클라이언트의 요청을 받아 처리하여 결과를 디스패처 서블릿에게 전달함
+- ViewResolver : View의 이름을 통해 알맞은 View를 찾음
+- View : 사용자에게 보여질 UI 
