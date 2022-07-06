@@ -128,5 +128,6 @@ Spring MVC란 웹 애플리케이션 개발을 위한 MVC 패턴 기반의 웹 �
 
 > CORS란?
 - CORS (Cross-Origin-Resource-Sharing)란 도메인이 다른 2개의 사이트가 데이터를 주고 받을 때 발생하는 문제입니다. 예를 들어 A.com에서 B.com으로 데이터를 요청한다고 하면, 따로 설정을 해주지 않는 한 CORS 에러를 만나게 됩니다.  CORS가 생기게 된 이유는 서버내에서 요청이 허락된 도메인에만 데이터를 주기 위해서인데, 요청을 허락하기 위해서는 Acess-Control-Allow-Origin : {도메인} 과 같은 내용을 Response의 헤더에 추가해주어야 합니다. 만약 도메인을 * 으로 설정하면 모든 도메인에 대해 요청을 허락할 수 있습니다. 그 외에도 Acess-Control-Allow-Methods, Acess-Control-Max-Age등을 설정할 수 있습니다.
-- Acess-Control-Allow-Origin :
+- Acess-Control-Allow-Origin : 요청을 보내는 페이지의 출처 [*, 도메인]
+- 
 
