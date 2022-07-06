@@ -18,7 +18,7 @@
 
 ![image](https://user-images.githubusercontent.com/37327676/177281162-a244f024-29bb-4e04-8a73-de5199d93fbe.png)
 
-> DI, AOP, IOC 란?
+> DI, DL, AOP, IOC 란?
 >
 > DI란?
 - Dependency Injection의 줄임말로, 의존성주입 이라고 한다.
@@ -37,6 +37,9 @@
 ![image](https://user-images.githubusercontent.com/37327676/177283017-087062ec-ad75-44fc-aefd-2ad76968a384.png)
 
 - @Setter를 통한 주입
+
+> DL란?
+- 한 객체에서 필요로 하는 다른 객체를 찾아서 사용하는 기술
 
 > AOP란?
 - Aspect-oriented Programming의 약어로 흩어진 Aspect를 모듈화 할 수 있는 프로그래밍 기법이다. 즉, 여러 곳에서 쓰이는 모듈화하고, 쓰이는 곳에 필요할 때 연결함으로써, 유지 보수 혹은 재사용에 용이하도록 프로그래밍 하는 것
